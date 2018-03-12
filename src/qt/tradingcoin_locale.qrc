@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/tradingcoin_bg.qm</file>
+        <file alias="de">locale/tradingcoin_de.qm</file>
+        <file alias="en">locale/tradingcoin_en.qm</file>
+        <file alias="es">locale/tradingcoin_es.qm</file>
+        <file alias="fi">locale/tradingcoin_fi.qm</file>
+        <file alias="fr">locale/tradingcoin_fr.qm</file>
+        <file alias="it">locale/tradingcoin_it.qm</file>
+        <file alias="ja">locale/tradingcoin_ja.qm</file>
+        <file alias="pl">locale/tradingcoin_pl.qm</file>
+        <file alias="pt">locale/tradingcoin_pt.qm</file>
+        <file alias="ru">locale/tradingcoin_ru.qm</file>
+        <file alias="sk">locale/tradingcoin_sk.qm</file>
+        <file alias="sv">locale/tradingcoin_sv.qm</file>
+        <file alias="vi">locale/tradingcoin_vi.qm</file>
+        <file alias="zh_CN">locale/tradingcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/tradingcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

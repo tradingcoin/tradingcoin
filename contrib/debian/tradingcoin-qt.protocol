@@ -1,0 +1,11 @@
+[Protocol]
+exec=tradingcoin-qt '%u'
+protocol=tradingcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

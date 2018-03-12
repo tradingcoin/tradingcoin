@@ -1,0 +1,3 @@
+debian/manpages/tradingcoind.1
+debian/manpages/tradingcoin.conf.5
+debian/manpages/tradingcoin-cli.1

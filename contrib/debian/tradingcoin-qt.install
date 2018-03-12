@@ -1,0 +1,6 @@
+usr/local/bin/tradingcoin-qt usr/bin
+share/pixmaps/tradingcoin32.xpm usr/share/pixmaps
+share/pixmaps/tradingcoin16.xpm usr/share/pixmaps
+share/pixmaps/tradingcoin128.png usr/share/pixmaps
+debian/tradingcoin-qt.desktop usr/share/applications
+debian/tradingcoin-qt.protocol usr/share/kde4/services/

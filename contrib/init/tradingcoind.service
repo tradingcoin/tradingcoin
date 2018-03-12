@@ -1,0 +1,22 @@
+[Unit]
+Description=TradingCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=tradingcoincore
+Group=tradingcoincore
+
+Type=forking
+PIDFile=/var/lib/tradingcoind/tradingcoind.pid
+ExecStart=/usr/bin/tradingcoind -daemon -pid=/var/lib/tradingcoind/tradingcoind.pid \
+-conf=/etc/tradingcoincore/tradingcoin.conf -datadir=/var/lib/tradingcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TradingCoin
+Comment=TradingCoin P2P Cryptocurrency
+Comment[fr]=TradingCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TradingCoin, eşten eşe kriptografik sanal para birimi
+Exec=tradingcoin-qt %u
+Terminal=false
+Type=Application
+Icon=tradingcoin128
+MimeType=x-scheme-handler/tradingcoin;
+Categories=Office;Finance;
