@@ -137,13 +137,13 @@ public:
         nDelayGetHeadersTime = 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1520864205, 1783425, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1521169861, 1042369, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x000009e6127072efb8b2fdfdaaa55881b1728c27d6b322fe302e48a0136fff11"));
-        assert(genesis.hashMerkleRoot == uint256S("0x4865121ca4160f7f51fb71e1d5acac470265b657005a9fb7e6a6cecba4bcc4c9"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000e04339ba89feb782fb043bff6471088aff580a694371bb443e6e57e424e"));
+        assert(genesis.hashMerkleRoot == uint256S("0xe1d585059244bc2671d2951398f3e6d9d392c931f8998983ea67fc39237c1933"));
 
-        vSeeds.push_back(CDNSSeedData("159.89.107.24", "159.89.107.24"));
-        vSeeds.push_back(CDNSSeedData("159.89.107.224", "159.89.107.224"));
+        vSeeds.push_back(CDNSSeedData("104.238.183.6", "104.238.183.6"));
+        vSeeds.push_back(CDNSSeedData("144.202.97.131", "144.202.97.131"));
 
         // TradingCoin addresses start with 'T'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,65);
@@ -173,8 +173,8 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of           
-            ( 0, uint256S("0x000009e6127072efb8b2fdfdaaa55881b1728c27d6b322fe302e48a0136fff11")),
-            1520864205, // * UNIX timestamp of last checkpoint block
+            ( 0, uint256S("0x00000e04339ba89feb782fb043bff6471088aff580a694371bb443e6e57e424e")),
+            1521169861, // * UNIX timestamp of last checkpoint block
             1,    // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             5000        // * estimated number of transactions per day after checkpoint
